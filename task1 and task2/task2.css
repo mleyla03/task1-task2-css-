@@ -1,0 +1,22 @@
+div>ul:nth-child(2)
+{
+    background-color: yellow;
+}
+h2{
+    border: 4px solid purple;
+    color: red;
+}
+h2 + p {
+    background-color: blue;
+}
+.text p:nth-of-type(even){
+    background-color: green;
+}
+.text p:nth-child(3)
+{
+    color: red;
+}
+[class^=r]
+{
+    background-color: yellow;
+}
